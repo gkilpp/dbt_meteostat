@@ -22,5 +22,5 @@ WITH daily_raw AS (
         FROM daily_raw
     )
     SELECT * 
-    FROM daily_flattened
+    FROM daily_flattened;
     
