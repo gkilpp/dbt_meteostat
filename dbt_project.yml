@@ -41,8 +41,8 @@ models:
     example:
       +materialized: table
 
-       ```yml
-    models:
+  
+  models:
       my_new_project:
         # Applies to all files under models/staging/
         staging:
@@ -53,4 +53,4 @@ models:
         # Applies to all files under models/mart/
         mart:
             materialized: table
-    ```
+
