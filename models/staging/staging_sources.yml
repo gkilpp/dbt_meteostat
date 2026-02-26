@@ -1,16 +1,16 @@
+version: 2
 
-    version: 2
-    sources:
-    - name: weather_data
-      schema: s_gabrielafernandakilpp
-      tables:
+sources:
+  - name: weather_data
+    schema: s_gabrielafernandakilpp
+    tables:
       - name: weather_daily_raw
       - name: weather_hourly_raw
-    
-    - name: flights_data
-      schema: public
-      tables:
-        - name: flights
-        - name: airports
-        - name: regions
+
+  - name: flights_data
+    schema: public
+    tables:
+      - name: flights
+      - name: airports
+      - name: regions
     
