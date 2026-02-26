@@ -62,12 +62,12 @@ select
     r.total_diverted,
 
     -- Origin airport details
-    ao.airport_name as origin_airport_name,
+    ao.name as origin_airport_name,
     ao.city as origin_city,
     ao.country as origin_country,
 
     -- Destination airport details
-    ad.airport_name as destination_airport_name,
+    ad.name as destination_airport_name,
     ad.city as destination_city,
     ad.country as destination_country
 

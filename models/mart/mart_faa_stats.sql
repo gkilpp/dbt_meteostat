@@ -75,8 +75,8 @@ arrivals as (
 -- -------------------------
 select
 
-    a.airport_id,
-    a.airport_name,
+    a.faa,
+    a.name,
     a.city,
     a.country,
 

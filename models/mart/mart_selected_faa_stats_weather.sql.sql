@@ -138,7 +138,7 @@ select
     s.avg_unique_airlines,
 
     -- Airport info (optional)
-    ap.airport_name,
+    ap.name,
     ap.city,
     ap.country,
 
