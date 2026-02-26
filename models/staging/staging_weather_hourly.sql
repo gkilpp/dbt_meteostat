@@ -24,5 +24,5 @@ WITH hourly_raw AS (
         FROM hourly_raw
     )
     SELECT * 
-    FROM hourly_data;
+    FROM hourly_data
     

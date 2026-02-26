@@ -24,4 +24,4 @@
     )
     SELECT *
     FROM add_more_features
-    ORDER BY date;
+    ORDER BY date

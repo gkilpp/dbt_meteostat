@@ -26,4 +26,4 @@
     )
     
     SELECT *
-    FROM add_more_features;
+    FROM add_more_features
