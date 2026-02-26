@@ -155,7 +155,7 @@ from weather w
 
 left join daily_airport_stats s
     on w.airport_code = s.airport_code
-    and w.weather_date = s.flight_date
+    and w.date = s.flight_date
 
 left join airports ap
     on w.airport_code = ap.faa

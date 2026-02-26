@@ -29,11 +29,11 @@ route_stats as (
 
         avg(actual_elapsed_time) as avg_actual_elapsed_time,
 
-        avg(arrival_delay) as avg_arrival_delay,
+        avg(arr_delay) as avg_arrival_delay,
 
-        max(arrival_delay) as max_arrival_delay,
+        max(arr_delay) as max_arrival_delay,
 
-        min(arrival_delay) as min_arrival_delay,
+        min(arr_delay) as min_arrival_delay,
 
         sum(case when cancelled = 1 then 1 else 0 end) as total_cancelled,
 
